@@ -2,7 +2,7 @@ const express = require('express');
 const favicon = require('express-favicon');
 const path = require('path');
 const quiz = require('./quiz.json');
-const port = 5050;
+const port = process.env.PORT || 5050;
 const app = express();
 
 app.use(express.json());
