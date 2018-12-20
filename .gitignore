@@ -10,7 +10,7 @@
 /coverage
 
 # production
-
+debug.log
 
 # misc
 .DS_Store

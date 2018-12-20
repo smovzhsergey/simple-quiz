@@ -17,7 +17,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/api/quiz', (req, res) => {
-    res.json({ ok: true, quiz})
+    res.json({ ok: true, quiz});
 });
 
 app.post('/api/quiz', (req, res) => {
@@ -41,12 +41,3 @@ app.post('/api/quiz', (req, res) => {
 });
 
 app.listen(port);
-
-
-
-
-//const port = process.env.PORT || 8080;
-//const app = express();
-
-// the __dirname is the current directory from where the script is running
-
