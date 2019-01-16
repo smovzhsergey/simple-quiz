@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { bool, func, number } from 'prop-types';
 
 const StartPage = ({ initializeQuiz, isFetching, quantity }) => (
@@ -8,6 +7,14 @@ const StartPage = ({ initializeQuiz, isFetching, quantity }) => (
         <h1>Тест</h1>
         <p>Тест состоит из { quantity } вопросов, время на прохождение - 2 минуты</p>
         <p>Прохождение теста завершается нажатием на кнопку "Завершить тест" либо автоматически по истечении времени. Если на какой либо вопрос не дан ответ, то ответ на него защитывается как неправильный. Если ответы даны не на все вопросы - досрочное завершение теста невозможно. На вопросы можно отвечать в произвольном порядке.</p>      
+        <p>
+            <a 
+                className = 'link'
+                href = 'https://github.com/smovzhsergey/simple-quiz'
+                target = '_blank'
+                rel="noreferrer noopener"
+            >github.com/simple-quiz</a>
+            </p>      
         <button onClick = { initializeQuiz }>Начать тест</button>
     </div>
 );

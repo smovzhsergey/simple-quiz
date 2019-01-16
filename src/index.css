@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;    
 }
 
 button {
@@ -25,4 +25,19 @@ button {
     margin: 100px auto;
     width: 600px;    
     padding: 25px;
+}
+
+.link {
+    background: url('./assets/Octocat.jpg') no-repeat left center;
+    background-size: 35px 35px;
+    color: #333;
+    font-size: 1.1rem;
+    padding: 10px 40px;
+    text-decoration: none; 
+    transition: all 0.3s;   
+}
+
+.link:hover {
+    color: rgb(95, 6, 179);
+    text-decoration: underline;    
 }
