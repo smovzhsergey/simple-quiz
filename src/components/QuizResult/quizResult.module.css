@@ -1,0 +1,29 @@
+.wrap {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    box-sizing: content-box;
+    font-size: 1.4rem;
+    margin: 100px auto;
+    width: 600px;    
+    padding: 25px;
+}
+
+h2 {
+    border-bottom: 4px solid blueviolet;
+    padding: 0 0 15px 25px;
+    text-align: center;    
+}
+
+.right {
+    color: rgb(23, 197, 0);
+    font-weight: bolder;
+}
+
+.wrong {
+    color: red;
+    font-weight: bolder;
+}
+
+button {
+    margin-right: 20px;
+}

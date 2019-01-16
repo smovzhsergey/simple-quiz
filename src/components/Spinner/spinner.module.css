@@ -1,0 +1,22 @@
+.spinner {
+    animation: rotate 1s linear infinite;
+    border: 5px solid #ddd;
+    border-bottom: 5px solid #777;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 30px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}

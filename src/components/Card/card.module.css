@@ -1,0 +1,10 @@
+.wrap {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    box-sizing: content-box;
+    margin: 100px auto;
+    width: 600px;    
+    padding: 25px;
+    position: relative;
+}
+
